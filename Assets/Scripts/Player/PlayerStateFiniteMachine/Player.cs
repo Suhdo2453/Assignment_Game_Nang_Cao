@@ -42,6 +42,11 @@ public class Player : MonoBehaviour
     #region Other Variables
     public Vector2 CurrentVelocity { get; private set; }
     public int FacingDirection { get; private set; }
+    
+    [SerializeField]
+    private GameManager gameManager;
+
+    [SerializeField] private GameObject effect;
 
     private Vector2 workSpaceVector;
     #endregion
@@ -82,6 +87,19 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         StateMachine.currentState.PhysicsUpdate();
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Coin"))
+        {
+            gameManager.CollectCoint();
+            //soundManager.PlayCoinSound();
+            Instantiate(effect, collision.transform.position, Quaternion.identity);
+            Destroy(collision.gameObject);
+        }
+
+        
     }
 
     #endregion
