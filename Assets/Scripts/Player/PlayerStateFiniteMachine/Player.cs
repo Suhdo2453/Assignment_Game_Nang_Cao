@@ -45,6 +45,8 @@ public class Player : MonoBehaviour
     
     [SerializeField]
     private GameManager gameManager;
+    [SerializeField]
+    public SoundManager soundManager;
 
     [SerializeField] private GameObject effect;
 
@@ -93,6 +95,7 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
+            soundManager.PlayCoinSound();
             gameManager.CollectCoint();
             //soundManager.PlayCoinSound();
             Instantiate(effect, collision.transform.position, Quaternion.identity);

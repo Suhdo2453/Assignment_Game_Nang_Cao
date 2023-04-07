@@ -2123,6 +2123,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Base-01_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d85e5d5cede29243b37c89dae6cea47
+      internalID: -685772255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-01_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e67ad061cc65a44909fb90bae82fc8
+      internalID: 1024930177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-01_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06479c0eb2bae545b40d966d4880b26
+      internalID: -1007626252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2184,6 +2247,7 @@ TextureImporter:
       Base-01_75: -164925557
       Base-01_70: -1524746507
       Base-01_76: 1341722655
+      Base-01_95: -685772255
       Base-01_94: 2138003345
       Base-01_29: -1826556612
       Base-01_2: 1994456114
@@ -2213,6 +2277,7 @@ TextureImporter:
       Base-01_33: 1043189178
       Base-01_80: 751243586
       Base-01_6: -61875059
+      Base-01_97: -1007626252
       Base-01_55: -2088981886
       Base-01_53: 322586690
       Base-01_88: -660928320
@@ -2228,6 +2293,7 @@ TextureImporter:
       Base-01_35: -596590308
       Base-01_0: 1332689940
       Base-01_7: 762961556
+      Base-01_96: 1024930177
       Base-01_57: -161702730
   spritePackingTag: 
   pSDRemoveMatte: 0
